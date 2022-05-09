@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./styles.css"></link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renters rente beregner</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="blur">
+    <img class="center" height="100" src="https://www.picng.com/upload/bank/png_bank_84000.png">
+    <h1 style="text-align: center;">Velkommen til rentes rente beregneren</h1>
+
+ 
+    <input class="center" id="start" placeholder="Hvor mange penge har du?"></input>
+    <input class="center" id="afkast" placeholder="Årligt afkast i procent?"></input>
+    <input class="center" id="tid" placeholder="Hvor mange år?"></input>
+    <br>
+    <div class="buttons">
+         <button  onclick="beregn()">Find resultat</button>
+         <button onclick="eks()">Vis mig et tilfældigt eksempel</button>
+    </div>
+   
+    <h2 style="text-align: center;" id="result"></h2>
+</div>
+
+</body>
+</html>
